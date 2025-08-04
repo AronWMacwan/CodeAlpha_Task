@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculator</title>
+</head>
+<body>
+
+
+   <div class="calculator">
+      <!-- Display where the current value or result is shown -->
+      <input type="text" id="display" class="display" disabled value="0" />
+      <div class="buttons">
+        <!-- AC, +/- buttons added for functionality with data-key attributes -->
+        <button id="ac" data-key="ac">AC</button>
+        <button id="plus-minus" data-key="plus-minus">+/-</button>
+        <button class="operator" data-action="%" data-key="%">%</button>
+        <button class="operator" data-action="/" data-key="/">/</button>
+        <button id="seven" data-key="7">7</button>
+        <button id="eight" data-key="8">8</button>
+        <button id="nine" data-key="9">9</button>
+        <button class="operator" data-action="*" data-key="*">*</button>
+        <button id="four" data-key="4">4</button>
+        <button id="five" data-key="5">5</button>
+        <button id="six" data-key="6">6</button>
+        <button class="operator" data-action="-" data-key="-">-</button>
+        <button id="one" data-key="1">1</button>
+        <button id="two" data-key="2">2</button>
+        <button id="three" data-key="3">3</button>
+        <button class="operator" data-action="+" data-key="+">+</button>
+        <button class="zero" id="zero" data-key="0">0</button>
+        <button id="point" data-key=".">.</button>
+        <button class="equal" id="equals" data-key="=">=</button>
+      </div>
+    </div>
+  <script src="./script.js"></script>
+</body>
+</html>
