@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav>
+            <div class="items">
+                <span class="item active" data-name="all">All</span>
+                <span class="item" data-name="animal">Animal</span>
+                <span class="item" data-name="cars">Cars</span>
+                <span class="item" data-name="food">Food</span>
+                <span class="item" data-name="Landscape">Landscape</span>
+            </div>
+        </nav>
+        <!-- fliter image -->
+        <div class="gallery">
+            <div class="image" data-name="animal"><span><img src="./assests/All/animal1.jpg" alt=""></span></div>
+            <div class="image" data-name="animal"><span><img src="./assests/All/animal2.jpg" alt=""></span></div>
+            <div class="image" data-name="animal"><span><img src="./assests/All/animal3.jpg" alt=""></span></div>
+            <div class="image" data-name="animal"><span><img src="./assests/All/animal4.jpg" alt=""></span></div>
+            <div class="image" data-name="animal"><span><img src="./assests/All/animal5.jpg" alt=""></span></div>
+            <div class="image" data-name="animal"><span><img src="./assests/All/animal6.jpg" alt=""></span></div>
+            <div class="image" data-name="cars"><span><img src="./assests/All/cars1.jpg" alt=""></span></div>
+            <div class="image" data-name="cars"><span><img src="./assests/All/cars2.jpg" alt=""></span></div>
+            <div class="image" data-name="cars"><span><img src="./assests/All/cars3.jpg" alt=""></span></div>
+            <div class="image" data-name="cars"><span><img src="./assests/All/cars4.jpg" alt=""></span></div>
+            <div class="image" data-name="cars"><span><img src="./assests/All/cars5.jpg" alt=""></span></div>
+            <div class="image" data-name="food"><span><img src="./assests/All/food1.jpg" alt=""></span></div>
+            <div class="image" data-name="food"><span><img src="./assests/All/food2.jpg" alt=""></span></div>
+            <div class="image" data-name="food"><span><img src="./assests/All/food3.jpg" alt=""></span></div>
+            <div class="image" data-name="food"><span><img src="./assests/All/food4.jpg" alt=""></span></div>
+            <div class="image" data-name="Landscape"><span><img src="./assests/All/Landscape1.jpg" alt=""></span></div>
+            <div class="image" data-name="Landscape"><span><img src="./assests/All/Landscape2.jpg" alt=""></span></div>
+            <div class="image" data-name="Landscape"><span><img src="./assests/All/Landscape3.jpg" alt=""></span></div>
+            <div class="image" data-name="Landscape"><span><img src="./assests/All/Landscape4.jpg" alt=""></span></div>
+            <div class="image" data-name="Landscape"><span><img src="./assests/All/Landscape5.jpg" alt=""></span></div>
+        </div>
+    </div>
+
+    <!-- fullscreen image preview -->
+    <div class="preview-box">
+        <div class="details">
+            <span class="title">Image Category: <p>Not defined</p></span>
+            <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box">
+            <img src="" alt="">
+        </div>
+        <div class="btns">
+            <button id="prev-btn" class="fas fa-angle-double-left" aria-hidden="true"></button>
+            <button id="next-btn" class="fas fa-angle-double-right" aria-hidden="true"></button>
+        </div>
+    </div>
+    <div class="shadow"></div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
